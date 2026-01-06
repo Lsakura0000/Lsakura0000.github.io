@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="html, css, 網頁, JS, javascript">
+    <meta name="description" content="Here is my page.">
+    <meta name="viewport" content="width=device-width, intiial-scale=1.0">
+    <meta name="author" content="Joy">
+
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <!--css-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--字型-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <title>home</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Pretty Good Job So Far<img
+                            src="img/2cce82e98a6f509898864ee1d4a87651.jpg" alt="logo" width="145"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">主頁</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">連結</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    其他內容
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">方法一</a></li>
+                                    <li><a class="dropdown-item" href="#">方法二</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">其他</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" aria-disabled="true">聯絡我們</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="搜尋" />
+                            <button class="btn btn-outline-success" type="submit">搜尋</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="intro"
+        style="background: linear-gradient(45deg, rgb(128 127 67 / 90%), transparent) 20%, url(img/FnFqFSuXEAEeYL-.jpg) no-repeat center;background-size: cover;">
+        <div class="container">
+            <div class="col-12 col-md-6">
+                <h1 class="display-4 text-light fw-medium">內容</h1>
+                <p class="lead text-light mt-3">段落一</p>
+                <a href="#" class="btn rounded-2">更多內容</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="second">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <h3>簡介</h3>
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-md-5 self">
+                            <img src="img/1661023247907.jpg">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="img/2cce82e98a6f509898864ee1d4a87651.jpg" class="d-block mb-4" alt="logo" width="180">
+                        <p class="lead mb-5">介紹</p>
+                        <ul>
+                            <li class="mb-3">內容一</li>
+                            <li class="mb-3">內容二</li>
+                            <li class="mb-3">內容三</li>
+                            <li class="mb-3">內容四</li>
+                            <li class="mb-3">內容五</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="img/2cce82e98a6f509898864ee1d4a87651.jpg" alt="" width="170">
+                    <p>段落一<br>段落二</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>網站地圖</h4>
+                    <ul>
+                        <li><a href="#">連結一</a></li>
+                        <li><a href="#">連結二</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">連結三</a></li>
+                        <li><a href="#">連結四</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
